@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\Projects\\HexSentinel\\HexSentinel\\Backend\\StaticAnalyzer\\test_env\\contracts\\YieldFarmVault.sol": {
+      "lastModificationDate": 1751715060821,
+      "contentHash": "5dd48f90985c2a1f7ab914e5deda4d11",
+      "sourceName": "contracts/YieldFarmVault.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "YieldFarmVault"
+      ]
+    }
+  }
+}
