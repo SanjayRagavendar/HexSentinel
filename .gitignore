@@ -353,3 +353,5 @@ vite.config.ts.timestamp-*
 
 ThreatSmartContract/node_modules/*
 YieldFarmContract_HoneyPot/node_modules/*
+ThreatSmartContract/cache/*
+YieldFarmContract_HoneyPot/cache/*
