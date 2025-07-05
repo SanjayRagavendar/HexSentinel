@@ -1,0 +1,78 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\Projects\\HexSentinel\\HexSentinel\\YieldFarmContract_HoneyPot\\contracts\\YieldFarmVault.sol": {
+      "lastModificationDate": 1751715060821,
+      "contentHash": "5dd48f90985c2a1f7ab914e5deda4d11",
+      "sourceName": "contracts/YieldFarmVault.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "YieldFarmVault"
+      ]
+    },
+    "D:\\Projects\\HexSentinel\\HexSentinel\\YieldFarmContract_HoneyPot\\contracts\\MaliciousReentrancy.sol": {
+      "lastModificationDate": 1751715404893,
+      "contentHash": "046a19b4c8b495da5fe78173a6d13849",
+      "sourceName": "contracts/MaliciousReentrancy.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IYieldFarmVault",
+        "MaliciousReentrancy"
+      ]
+    }
+  }
+}
