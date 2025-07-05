@@ -286,14 +286,15 @@ struct AuditReport {
 }
 ```
 
-###  Honeypot Example (`YieldFarmContract_HoneyPot/`)
+## Honeypot Example (`YieldFarmContract_HoneyPot/`)
+
+These honeypots can lure the attackers whom might have attacked other smart contracts we can analyze their transactions to find contracts and analyze them using HexSentinel to find the vulnerablity which can be used to secure the general audience from attacks by hackers or APT(Advanced Persistent Threats)
 
 Educational vulnerability demonstrations:
 - **Reentrancy Attacks**: Classic CEI pattern violations
 - **Access Control Issues**: Permission bypass examples
 - **Integer Overflow/Underflow**: Mathematical vulnerabilities
 
-##  Security Examples
 
 ### Reentrancy Vulnerability
 
@@ -343,14 +344,6 @@ const registry = await ethers.getContractAt("AuditRegistry", address);
 await registry.submitReport(contractAddress, threatLevel, score, ipfsCid);
 ```
 
-### Code Standards
-
-- **Solidity**: Follow [Ethereum Style Guide](https://docs.soliditylang.org/en/latest/style-guide.html)
-- **Python**: PEP 8 compliance
-- **JavaScript**: ESLint with standard configuration
-- **Testing**: Minimum 90% code coverage
-
-
 ## Acknowledgments
 
 - **OpenZeppelin**: Secure smart contract libraries
@@ -358,3 +351,6 @@ await registry.submitReport(contractAddress, threatLevel, score, ipfsCid);
 - **Web3.py**: Python Ethereum library
 
 ### Checkout the sample scan report [here](demo/sample-report.pdf)
+### Checkout the deployed Threat Audit Registry Smart contract deployed at [polygon amoy](https://amoy.polygonscan.com/tx/0xa8fe6b2c0d98d2c8e4330c92406d0b59cb3419d9ff7c39fe5376b8264b53b705)
+### Check the data stored in the contract at the Transaction [event log](https://amoy.polygonscan.com/tx/0xa8fe6b2c0d98d2c8e4330c92406d0b59cb3419d9ff7c39fe5376b8264b53b705) 
+![Data-storage-at-smart-contract](https://github.com/user-attachments/assets/bff8d293-6fde-48bc-967d-09ffeeb1a426)
